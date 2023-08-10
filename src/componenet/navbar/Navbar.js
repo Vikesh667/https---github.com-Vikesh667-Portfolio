@@ -27,7 +27,7 @@ const Navbar = () => {
       <li><a href="">Resume</a></li>
       <li><a href="">Skill</a></li>
       <li><a href="">Project</a></li>
-      <button className={style.btn}>Contact Us</button>
+      <li><a href="">Contact Us</a></li>
     </ul>
   {mobileViews && <ul className={style.menu1}>
       <li><a href="">Home</a></li>
@@ -35,7 +35,7 @@ const Navbar = () => {
       <li><a href="">Resume</a></li>
       <li><a href="">Skill</a></li>
       <li><a href="">Project</a></li>
-      <button className={style.btn}>Contact Us</button>
+      <li><a href="">Contact Us</a></li>
     </ul>}
     <button className={style.mobilemenubutton} onClick={handleToggole}><BsList/></button>
    </nav>
