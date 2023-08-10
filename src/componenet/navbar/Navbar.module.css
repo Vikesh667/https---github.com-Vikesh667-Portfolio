@@ -68,7 +68,7 @@
   perspective: 1000px;
 }
 
-h1 {
+.logo h1 {
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 10px;
@@ -81,14 +81,14 @@ h1 {
   color: green;
 }
 
-h1 span {
+.logo h1 span {
   display: inline-block;
   transform-style: preserve-3d;
   transform: translateZ(10px);
   transition: transform 0.3s ease-in-out;
 }
 
-h1:hover span {
+.logo h1:hover span {
   transform: translateZ(50px) rotateY(360deg);
 }
 .mobilemenubutton {

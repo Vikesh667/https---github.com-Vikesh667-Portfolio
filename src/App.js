@@ -1,9 +1,8 @@
-import Navbar from "./componenet/navbar/Navbar";
-
+import HomePages from "./Pages/HomePages";
 function App() {
   return (
     <div >
-    <Navbar/>
+    <HomePages/>
     </div>
   );
 }
