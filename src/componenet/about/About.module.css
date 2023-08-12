@@ -133,5 +133,8 @@
       width: 300px;
       height: 300px;
     }
+    .btnMore{
+      margin-left: 0;
+    }
    }
    

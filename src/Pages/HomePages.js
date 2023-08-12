@@ -12,7 +12,7 @@ const HomePages = () => {
       <Home />
       <About />
       <MyServices />
-      <MySkill />
+      {/* <MySkill /> */}
     </div>
   );
 };
