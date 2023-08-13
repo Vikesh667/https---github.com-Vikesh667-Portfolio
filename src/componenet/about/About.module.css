@@ -1,141 +1,150 @@
-.about{
+.about {
   height: 100vh;
+  width: 100vw;
   position: relative;
   display: flex;
   background-color: rgba(14, 11, 44, 0.432);
+  align-items: center;
 }
 .aboutImage {
-    margin: 6rem;
-    width: 350px;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    overflow: hidden;
-    box-shadow: 0 0 5px cyan, 0 0 25px rgb(255, 115, 0), 0 0 50px rgb(204, 0, 255),
-      0 0 100px rgb(27, 6, 214);
-    background-image: linear-gradient(
-      to right,
-      #a8c0ff,
-      #3f2b96,
-      #6d9411,
-      #a5136d
-    );
-    animation: moveRound 1s ease backwards;
-    animation-delay: 0.7s;
-  
-    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
-  
-  .imageWrapper {
-    position: relative;
-    width: 90%;
-    height: 90%;
-    overflow: hidden;
-    border: 5px solid green;
-    border-radius: 50%;
-    transform: rotate(0deg);
-  }
-  
-  .profileImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s, filter 0.3s;
-  }
-  
-  .aboutImage:hover .profileImage {
-    transform: scale(1.1) rotate(-360deg);
-    filter: brightness(1.2);
-  }
-  .text{
-    width: 50%;
-  }
-  .text h2{
-    font-size: 50px;
-    color: #fff;
-  }
-  .text h2 span {
-    color: #0ef;
-  }
-  .text h4{
-    font-size: 29px;
-    font-weight: 600px;
-    line-height: 1.4;
-    margin: 10px 0 25px;
-    color: #fff;
-  }
-  .text p{
-    color: aliceblue;
-    font-size: 20px;
-    line-height: 1.4;
-    margin-bottom: 4rem;
-  }
-  .btnMore {
-    display: inline-block;
-    padding: 12px 28px;
-    background: #0ef;
-    border-radius: 40px;
-    font-size: 1rem;
-    color: #081b29;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-weight: 600;
-    /* opacity: 0; */
-    animation: slideTop 1s ease forwards;
-    animation-delay: 0.7s;
-    box-shadow: 0 0 5px #0ef,
-    0 0 25px #0ef
-  }
-  @media (max-width:920px){
-  .about{
+  margin: 6rem;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 5px cyan, 0 0 25px rgb(255, 115, 0), 0 0 50px rgb(204, 0, 255),
+    0 0 100px rgb(27, 6, 214);
+  background-image: linear-gradient(
+    to right,
+    #a8c0ff,
+    #3f2b96,
+    #6d9411,
+    #a5136d
+  );
+  animation: moveRound 1s ease backwards;
+  animation-delay: 0.7s;
+
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.imageWrapper {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  border: 5px solid green;
+  border-radius: 50%;
+  transform: rotate(0deg);
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.aboutImage:hover .profileImage {
+  transform: scale(1.1) rotate(-360deg);
+  filter: brightness(1.2);
+}
+.text {
+  width: 50%;
+}
+.text h2 {
+  font-size: 50px;
+  color: #fff;
+}
+.text h2 span {
+  color: #0ef;
+}
+.text h4 {
+  font-size: 29px;
+  font-weight: 600px;
+  line-height: 1.4;
+  margin: 10px 0 25px;
+  color: #fff;
+}
+.text p {
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+}
+.btnMore {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #0ef;
+  border-radius: 40px;
+  font-size: 1rem;
+  color: #081b29;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0;
+  animation: slideTop 1s ease forwards;
+  animation-delay: 0.7s;
+  box-shadow: 0 0 5px #0ef, 0 0 25px #0ef;
+}
+@media (max-width: 920px) {
+  .about {
     height: 100%;
     flex-direction: column;
     align-items: center;
   }
-  .text{
+  .text {
     text-align: start;
     margin-left: 30px;
   }
-  .text h2{
-   text-align: center;
-  }
-  .text h4{
+  .text h2 {
     text-align: center;
   }
-  .btnMore{
+  .text h4 {
+    text-align: center;
+  }
+  .btnMore {
     margin-left: 32%;
     margin-bottom: 20px;
   }
+}
+@media (max-width: 620px) {
+  .about {
+    width: 100%;
   }
-  @media(max-width:620px){
-    .about{
-      width: 100%;
-    }
-  .btnMore{
+  .btnMore {
     margin-left: 22%;
   }
-  .text h4{
+  .text h4 {
     font-size: 20px;
     text-align: start;
   }
-  .text h2{
+  .text h2 {
     font-size: 35px;
     text-align: start;
   }
+}
+@media (max-width: 430px) {
+  .about {
+    width: 100%;
   }
-  @media(max-width:430px){
-    .about{
-      width: 100%;
-    }
-    .aboutImage{
-      width: 300px;
-      height: 300px;
-    }
-    .btnMore{
-      margin-left: 0;
-      padding: 7px 28px;
-    }
-   }
-   
+  .aboutImage {
+    width: 300px;
+    height: 300px;
+  }
+  .btnMore {
+    margin-left: -5%;
+  }
+}
+@keyframes slideTop {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
