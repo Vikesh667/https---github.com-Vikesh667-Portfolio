@@ -3,7 +3,7 @@
   color: aliceblue;
   font-size: 20px;
   line-height: 1.4;
-  background-color: rgba(14, 11, 44, 0.432);
+  background: linear-gradient(180deg, orange, white, green);
   display: flex;
   align-items: center;
   justify-content: center;

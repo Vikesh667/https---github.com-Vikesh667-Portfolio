@@ -4,7 +4,7 @@ import { BsFillPersonCheckFill } from "react-icons/bs";
 const MyServices = () => {
   return (
     <section>
-      <div className={style.services} id="services">
+      <div className={style.services} id="#services">
         <div className={style.container}>
           <h1 className={style.subtitle}>
             My<span>Services</span>

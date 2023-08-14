@@ -3,7 +3,7 @@
   width: 100vw;
   position: relative;
   display: flex;
-  background-color: rgba(14, 11, 44, 0.432);
+  background: linear-gradient(180deg, orange, white, green);
   align-items: center;
 }
 .aboutImage {

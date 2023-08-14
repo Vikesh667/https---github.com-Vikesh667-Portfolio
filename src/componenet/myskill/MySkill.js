@@ -6,7 +6,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import { GrReactjs } from "react-icons/gr";
 const MySkill = () => {
   return (
-    <div className={style.main}>
+    <div className={style.main} id="#skill">
       <h1 className={style.skiilheading}>
         My<span>Skills</span>
       </h1>
