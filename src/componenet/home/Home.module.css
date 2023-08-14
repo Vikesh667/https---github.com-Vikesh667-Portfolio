@@ -240,6 +240,10 @@
     width: 100%;
     padding: 0 10px;
   }
+  .texts{
+    flex-direction: column;
+  
+  }
 }
 @media(max-width:430px){
   .homesci{
@@ -251,14 +255,3 @@
   }
  }
 
- @keyframes moveLeftRight {
-  100% {
-    transform: translateX(100px);
-  }
- 
-}
-
-.moveingtext {
-  font-size: 24px;
-  animation: moveLeftRight 4s linear infinite; 
-}
