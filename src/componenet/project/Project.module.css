@@ -9,13 +9,13 @@
 .projectcontainer {
   display: flex;
   height: 90%;
-  gap: 1rem;
 }
 .card {
   height: 15rem;
   width: 15rem;
-  border: 1px solid red;
+  border: 2px solid rgb(15, 14, 14);
   display: flex;
+
 }
 .card img {
   height: 100%;
