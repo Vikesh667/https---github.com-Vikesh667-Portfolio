@@ -3,8 +3,7 @@
 .project {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
-  overflow-x: scroll;
-  height: 100vh;
+  overflow: hidden;
   width: 100vw;
 }
 
@@ -22,9 +21,9 @@
   display: flex;
   gap: 1rem;
   border-radius: 5px;
-  padding: 10px;
-  box-sizing: border-box;
-  overflow-x: auto;
+  padding: 10px; /* Add padding to ensure the content is spaced from the edges */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  overflow-x: scroll; /* Allow horizontal scrolling */
 }
 
 .card {
