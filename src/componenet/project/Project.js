@@ -6,19 +6,21 @@ const Project = () => {
     
   return (
     <div className={style.project} id="project">
-      <h3>Projects</h3>
-       <div className={style.projectcontainer}>
-      
-        {images.map((image)=>{
-            return(
-                <div key={image.id} className={style.card}>
-                    <img src={image.url}/>
-                    <h5>{image.name}</h5>
-                </div>
-            )
-        })}
-      
+      <div className={style.heading}>
+        <h1>Project</h1>
         </div>
+      <div className={style.box}>
+        {
+          images.map((item)=>{
+            return(
+              <div className={style.card}>
+                <img src={item.url}/>
+              </div>
+            )
+          })
+        }
+      </div>
+    
     </div>
   )
 }

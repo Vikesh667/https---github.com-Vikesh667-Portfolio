@@ -10,11 +10,23 @@ const HomePages = () => {
   return (
     <div style={{background:"linear-gradient(180deg, orange, white, green)"}}>
       <Navbar />
-      <Home />
+     
+     <section id="/">
+     <Home />
+      </section> 
+      <section id="about">
       <About />
+      </section> 
+      <section>
       <MyServices />
+      </section> 
+      <section id="skill">
       <MySkill />
+      </section> 
+      <section id="project">
       <Project/>
+      </section> 
+      
     </div>
   );
 };
