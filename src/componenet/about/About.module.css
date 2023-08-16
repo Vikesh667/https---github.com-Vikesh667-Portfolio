@@ -3,7 +3,7 @@
   width: 100vw;
   position: relative;
   display: flex;
-  background: #173e45;
+  background: #000000;
   align-items: center;
   overflow: hidden;
 }
@@ -81,7 +81,7 @@
   background: #0ef;
   border-radius: 40px;
   font-size: 1rem;
-  color: #081b29;
+  color: #000000;
   letter-spacing: 1px;
   text-decoration: none;
   font-weight: 600;

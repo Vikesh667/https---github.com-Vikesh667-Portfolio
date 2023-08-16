@@ -25,10 +25,10 @@ const Home = () => {
           </span>
         </h3>
         <p>
-          "Welcome to my portfolio! I'm a passionate web developer with a knack
+          Welcome to my portfolio! I'm a passionate web developer with a knack
           for crafting immersive online experiences. My expertise lies in
           creating responsive websites that blend elegant design with seamless
-          functionality."
+          functionality.
         </p>
         <div className={styles.social}>
           <a href="#" style={{ i: 1 }}>
