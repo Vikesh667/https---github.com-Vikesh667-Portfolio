@@ -132,7 +132,7 @@
   border: 7px solid transparent;
   border-bottom-width: 0;
   border-right-width: 0;
-  border-top-color: #000;
+  border-top-color: #fff;
   top: -10px;
   right: 0;
   animation: showText 0.5s 1.5s linear forwards;
@@ -226,6 +226,7 @@
   transform: translate(-50%, -50%);
   font-size: 17px;
   font-weight: 500;
+  color: #fff;
   animation: showText 0.5s 1s linear forwards;
 }
 .radialBar .text {

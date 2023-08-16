@@ -27,11 +27,11 @@ const HomePages = () => {
       <section id="project">
       <Project/>
       </section> 
-       <section id="contact">
-        <Contact/>
-       </section>
        <section id="blog">
         <Blog/>
+       </section>
+       <section id="contact">
+        <Contact/>
        </section>
     </div>
   );
