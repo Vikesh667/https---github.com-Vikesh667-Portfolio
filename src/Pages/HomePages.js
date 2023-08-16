@@ -5,10 +5,11 @@ import About from "../componenet/about/About";
 import MyServices from "../componenet/services/MyServices";
 import MySkill from "../componenet/myskill/MySkill";
 import Project from "../componenet/project/Project";
+import Contact from "../componenet/contact/Contact";
 
 const HomePages = () => {
   return (
-    <div style={{background:"linear-gradient(180deg, orange, white, green)"}}>
+    <div>
       <Navbar />
      
      <section id="/">
@@ -26,7 +27,9 @@ const HomePages = () => {
       <section id="project">
       <Project/>
       </section> 
-      
+       <section id="contact">
+        <Contact/>
+       </section>
     </div>
   );
 };

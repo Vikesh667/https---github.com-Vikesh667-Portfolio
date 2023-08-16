@@ -3,7 +3,7 @@
   width: 100vw;
   justify-content: space-between;
   height: 100vh;
-  background: linear-gradient(180deg, orange, white, green);
+  background: #173e45;
   display: flex;
   align-items: center;
   padding: 70px 10% 0;
@@ -18,13 +18,13 @@
   overflow: hidden;
   box-shadow: 0 0 5px cyan, 0 0 25px rgb(255, 115, 0), 0 0 50px rgb(204, 0, 255),
     0 0 100px rgb(27, 6, 214);
-  /* background-image: linear-gradient(
+  background-image: linear-gradient(
     to right,
     #a8c0ff,
     #3f2b96,
     #6d9411,
     #a5136d
-  ); */
+  );
   background: transparent;
   animation: moveRound 1s ease backwards;
   animation-delay: 0.7s;

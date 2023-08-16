@@ -3,7 +3,7 @@
   width: 100vw;
   position: relative;
   display: flex;
-  background: linear-gradient(180deg, orange, white, green);
+  background: #173e45;
   align-items: center;
   overflow: hidden;
 }
@@ -127,7 +127,7 @@
     text-align: start;
   }
 }
-@media (max-width: 430px) {
+@media (max-width: 420px) {
   .about {
     width: 100%;
   }
@@ -136,7 +136,7 @@
     height: 300px;
   }
   .btnMore {
-    margin-left: -5%;
+    margin-left: -10%;
   }
 }
 @keyframes slideTop {
