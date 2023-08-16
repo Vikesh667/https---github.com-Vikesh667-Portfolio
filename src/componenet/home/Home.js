@@ -44,7 +44,7 @@ const Home = () => {
             <BsWhatsapp />
           </a>
         </div>
-        <a href="#" className={styles.btnMore}>
+        <a href="#about" className={styles.btnMore}>
           More About Me
         </a>
       </section>

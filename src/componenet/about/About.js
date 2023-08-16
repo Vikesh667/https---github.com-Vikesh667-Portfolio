@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./About.module.css";
+import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div className={style.about}>
@@ -29,9 +30,9 @@ const About = () => {
           Continuous learning to stay updated with evolving technologies is crucial 
           for success as a MEAN Stack developer.
         </p>
-        <a href="#" className={style.btnMore}>
+        <Link to="about" className={style.btnMore}>
           More About Me
-        </a>
+        </Link>
       </div>
     </div>
   );
